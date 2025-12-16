@@ -9,7 +9,7 @@ const AppContextProvider = (props) => {
   /* ================= BASIC CONFIG ================= */
   const currencySymbol = "₹";
   const currency = "₹";
-  const backendUrl = import.meta.env.VITE_BACKEND_URL;
+  const backendUrl = "https://myvaidya.onrender.com";
 
   /* ================= STATES ================= */
   const [doctors, setDoctors] = useState([]);
